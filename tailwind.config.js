@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        'ferroRosso': ['FerroRosso', 'serif']
+
+      },
       colors: {
         brightColor: "#F4511F",
         backgroundColor: "#b7bca9",
